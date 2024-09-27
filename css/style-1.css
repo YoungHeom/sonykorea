@@ -767,7 +767,7 @@ footer {
     .banner_text {
         padding-left: 140px;
         /* top: 240px; */
-        top: 39%;
+        top: 40%;
     }
 
     .main_banner .swiper-button-prev::after {
@@ -1058,7 +1058,7 @@ footer {
         padding-left: 46px;
         position: absolute;
         left: 0;
-        top: 40%;
+        top: 44%;
         z-index: 1;
         /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); */
     }
@@ -1774,6 +1774,21 @@ footer {
 }
 
 @media (max-width: 364px) {
+    .banner_text {
+        top: 45%;
+    }
+    .banner_text span:nth-child(1) {
+        font-size: 12px;
+        /* margin-bottom: 8px; */
+    }
+
+    .banner_text span:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .banner_text span:nth-child(3) {
+        font-size: 20px;
+    }
     .m_footer > .m_footer_con > div > .m_ft_contents li {
         font-size: 11px;
     }
