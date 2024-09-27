@@ -710,7 +710,7 @@ footer {
 
     .mobile_wrap {
         display: block;
-        min-width: 320px;
+        min-width: 314px;
         overflow-x: hidden;
     }
 
@@ -734,7 +734,7 @@ footer {
     .m_top_bar {
         width: 100%;
         height: 105px;
-        min-width: 320px;
+        min-width: 314px;
         display: flex;
     }
 
@@ -801,7 +801,7 @@ footer {
     /* m_support_search 시작 */
     .m_support_contents {
         width: 90%;
-        min-width: 320px;
+        min-width: 314px;
         margin: 0 auto;
     }
 
@@ -945,13 +945,13 @@ footer {
 
     .m_support_menu_1 {
         width: 92%;
+        min-width: 290px;
         display: block;
         margin: 0 auto;
         /* box-sizing: border-box; */
     }
 
     .m_support_menu_1>.mobile_select {
-        min-width: 307px;
         height: 42px;
         display: flex;
         margin-top: 12px;
@@ -997,7 +997,7 @@ footer {
     .mobile_select_box {
         display: none;
         width: 100%;
-        min-width: 320px;
+        min-width: 314px;
         height: 100vh;
         top: 0;
         bottom: 0;
@@ -1304,7 +1304,7 @@ footer {
     /* .m_support_top_menu 시작 */
     .m_support_top_menu {
         width: 100%;
-        min-width: 320px;
+        min-width: 314px;
         font-weight: 100;
         background-color: #000;
         position: fixed;

@@ -1107,7 +1107,7 @@ footer {
     .m_top_bar {
         width: 100%;
         height: 105px;
-        min-width: 320px;
+        min-width: 314px;
         display: flex;
     }
 
@@ -1242,7 +1242,7 @@ footer {
     /* .m_main_img 시작 */
     .m_main_img {
         width: 100%;
-        min-width: 320px;
+        min-width: 314px;
         height: 245px;
         position: relative;
         margin-top: 5px;
@@ -1283,7 +1283,7 @@ footer {
     /* .m_main_scroll_menu_1 시작 */
     .m_main_scroll_menu_1 {
         width: 88%;
-        min-width: 320px;
+        min-width: 314px;
         margin: 0 auto;
         margin-bottom: 56px;
         display: flex;
@@ -1354,7 +1354,7 @@ footer {
     /* m_main_academy_box 시작 */
     .m_main_academy_box {
         width: 88%;
-        min-width: 320px;
+        min-width: 314px;
         margin: 0 auto;
         margin-bottom: 44px;
     }
@@ -1443,7 +1443,7 @@ footer {
 
     .m_main_news_box>.m_news_title {
         width: 88%;
-        min-width: 320px;
+        min-width: 314px;
         height: 52px;
         margin: 0 auto;
         display: flex;
@@ -1555,7 +1555,7 @@ footer {
 
     .m_news_swiper div.swiper-scrollbar {
         /* width: 88% !important; */
-        min-width: 320px;
+        min-width: 314px;
         height: 8px;
         left: 0;
         border-radius: 0px !important;
@@ -1668,7 +1668,7 @@ footer {
     /* .m_main_top_menu 시작 */
     .m_main_top_menu {
         width: 100%;
-        min-width: 320px;
+        min-width: 314px;
         height: 100vh;
         font-weight: 100;
         background-color: #000;
