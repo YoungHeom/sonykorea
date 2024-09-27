@@ -1779,7 +1779,7 @@ footer {
 @media (max-width: 364px) {
     .banner_text {
         top: 44%;
-        padding-left: 32px;
+        padding-left: 24px;
     }
     .banner_text span:nth-child(1) {
         font-size: 12px;
@@ -1790,7 +1790,7 @@ footer {
     }
 
     .banner_text span:nth-child(3) {
-        font-size: 19.5px;
+        font-size: 19px;
     }
     .m_footer > .m_footer_con > div > .m_ft_contents li {
         font-size: 11px;
