@@ -957,7 +957,7 @@ footer {
     
     .mobile_wrap {
         display: block;
-        min-width: 333px;
+        min-width: 320px;
         overflow-x: hidden;
     }
 
@@ -980,7 +980,7 @@ footer {
     /* m_top_bar 시작 */
     .m_top_bar {
         width: 100%;
-        min-width: 333px;
+        min-width: 320px;
         height: 105px;
         display: flex;
     }
@@ -1076,7 +1076,7 @@ footer {
     /* m_product_contents 시작 */
     .m_product_contents {
         width: 90%;
-        min-width: 333px;
+        min-width: 320px;
         margin: 0 auto;
     }
 
@@ -1144,7 +1144,7 @@ footer {
     .product_mobile_select_box {
         display: none;
         width: 100%;
-        min-width: 333px;
+        min-width: 320px;
         height: 100vh;
         top: 0;
         bottom: 0;
@@ -1453,7 +1453,7 @@ footer {
       /* .m_support_top_menu 시작 */
       .m_support_top_menu {
         width: 100%;
-        min-width: 333px;
+        min-width: 320px;
         height: 100vh;
         font-weight: 100;
         background-color: #000;

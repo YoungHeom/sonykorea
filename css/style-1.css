@@ -1107,7 +1107,7 @@ footer {
     .m_top_bar {
         width: 100%;
         height: 105px;
-        min-width: 333px;
+        min-width: 320px;
         display: flex;
     }
 
@@ -1242,7 +1242,7 @@ footer {
     /* .m_main_img 시작 */
     .m_main_img {
         width: 100%;
-        min-width: 333px;
+        min-width: 320px;
         height: 245px;
         position: relative;
         margin-top: 5px;
@@ -1555,7 +1555,7 @@ footer {
 
     .m_news_swiper div.swiper-scrollbar {
         /* width: 88% !important; */
-        min-width: 333px;
+        min-width: 320px;
         height: 8px;
         left: 0;
         border-radius: 0px !important;
@@ -1667,7 +1667,7 @@ footer {
     /* .m_main_top_menu 시작 */
     .m_main_top_menu {
         width: 100%;
-        min-width: 333px;
+        min-width: 320px;
         height: 100vh;
         font-weight: 100;
         background-color: #000;
