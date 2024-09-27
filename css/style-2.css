@@ -1612,9 +1612,6 @@ footer {
     .m_products > .m_buy_product_img {
         min-height: 148px;
     }
-    .m_products {
-        width: 48.5%;
-    }
     .m_product_menu_1 > .product_mobile_select {
         min-width: initial;
     }
@@ -1626,6 +1623,9 @@ footer {
     }
 }
 @media (max-width: 330px) {
+    .m_products {
+        width: 47%;
+    }
     .m_product_contents_1 {
         margin-left: 0;
         margin-right: 0;
