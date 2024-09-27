@@ -1587,6 +1587,7 @@ footer {
     }
 
     .m_footer_con {
+        width: 100%;
         display: block;
         font-weight: 100;
     }
