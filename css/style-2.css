@@ -1623,11 +1623,8 @@ footer {
     }
 }
 @media (max-width: 330px) {
-    .m_products {
-        width: 47%;
-    }
     .m_product_contents_1 {
-        margin-left: 0;
+        margin-left: 2px;
         margin-right: 0;
     }
 }
