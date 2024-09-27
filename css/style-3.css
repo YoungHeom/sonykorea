@@ -710,7 +710,7 @@ footer {
 
     .mobile_wrap {
         display: block;
-        min-width: 360px;
+        min-width: 333px;
         overflow-x: hidden;
     }
 
@@ -774,8 +774,8 @@ footer {
     }
 
     .m_support_banner>div {
-        position: relative;
         height: 307px;
+        position: relative;
     }
 
     .m_support_banner>div>img {
@@ -1304,10 +1304,8 @@ footer {
     .m_support_top_menu {
         width: 100%;
         min-width: 333px;
-        height: 100vh;
         font-weight: 100;
         background-color: #000;
-        /* opacity: .8; */
         position: fixed;
         top: 0;
         bottom: 0;
