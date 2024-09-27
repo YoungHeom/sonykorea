@@ -1,11 +1,4 @@
 /* 노말라이즈 */
-/* @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-} */
-
 * {
     font-family: 'Pretendard';
     margin: 0;
@@ -1263,7 +1256,7 @@ footer {
     /* .m_main_img 시작 */
     .m_main_img {
         width: 100%;
-        min-width: 393px;
+        min-width: 333px;
         height: 245px;
         position: relative;
         margin-top: 5px;
@@ -1576,7 +1569,7 @@ footer {
 
     .m_news_swiper div.swiper-scrollbar {
         /* width: 88% !important; */
-        min-width: 340px;
+        min-width: 333px;
         height: 8px;
         left: 0;
         border-radius: 0px !important;
@@ -1793,8 +1786,8 @@ footer {
     }
 }
 
-@media (max-width: 390px) {
-    html {
-        /* width: 393px; */
+@media (max-width: 344px) {
+    .m_ft_menu ul:last-child>li:last-child {
+        font-size: 9px;
     }
 }

@@ -957,7 +957,7 @@ footer {
     
     .mobile_wrap {
         display: block;
-        min-width: 393px;
+        min-width: 333px;
     }
 
     *:not(footer *) {
@@ -979,7 +979,7 @@ footer {
     /* m_top_bar 시작 */
     .m_top_bar {
         width: 100%;
-        min-width: 393px;
+        min-width: 333px;
         background-color: #000;
         display: flex;
         position: fixed;
@@ -1588,4 +1588,10 @@ footer {
     .support_top_btn.show {
     left: 84%;
     }
+}
+
+@media (max-width: 344px) {
+    .m_ft_menu ul:last-child>li:last-child {
+        font-size: 9px;
     }
+}
