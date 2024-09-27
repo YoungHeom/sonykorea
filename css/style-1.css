@@ -595,7 +595,7 @@ footer {
     display: flex;
 }
 
-.footer_con {
+.m_footer_con {
     width: 1438px;
     height: 100%;
     margin: 0 auto;
@@ -3193,6 +3193,9 @@ footer {
 }
 
 @media (max-width: 344px) {
+    .m_footer > .m_footer_con > div > .m_ft_contents li {
+        font-size: 11.5px;
+    }
     .m_ft_menu ul:last-child>li:last-child {
         font-size: 9px;
     }
