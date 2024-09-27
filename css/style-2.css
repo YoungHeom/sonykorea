@@ -981,9 +981,8 @@ footer {
     .m_top_bar {
         width: 100%;
         min-width: 333px;
-        background-color: #000;
+        height: 105px;
         display: flex;
-        position: fixed;
     }
 
     .m_logo {

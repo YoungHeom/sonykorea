@@ -756,10 +756,6 @@ footer {
 
 /* support_top_btn_white 끝 */
 @media (max-width: 1440px) {
-    html {
-        overflow-x: hidden;
-    }
-
     .main_banner {
         height: 680px;
     }
@@ -858,10 +854,6 @@ footer {
 }
 
 @media (max-width: 1280px) and (min-width: 1024px) {
-    html {
-        overflow-x: hidden;
-    }
-
     .top_bar {
         width: 85%;
         min-width: 820px;
@@ -1026,11 +1018,6 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
-
     .wrap {
         display: none;
     }
@@ -1042,7 +1029,7 @@ footer {
     .swiper.main_banner {
         /* width: 390px; */
         height: 420px !important;
-        margin-top: 91px;
+        margin-top: 84px;
     }
 
     .swiper.main_banner img {
@@ -1119,10 +1106,9 @@ footer {
     /* m_top_bar 시작 */
     .m_top_bar {
         width: 100%;
+        height: 105px;
         min-width: 333px;
-        background-color: #000;
         display: flex;
-        position: fixed;
     }
 
     .m_logo {
@@ -1600,7 +1586,7 @@ footer {
         display: flex;
     }
 
-    .footer_con {
+    .m_footer_con {
         display: block;
         font-weight: 100;
     }
@@ -1787,6 +1773,9 @@ footer {
 }
 
 @media (max-width: 344px) {
+    .m_footer > .m_footer_con > div > .m_ft_contents li {
+        font-size: 11.5px;
+    }
     .m_ft_menu ul:last-child>li:last-child {
         font-size: 9px;
     }
