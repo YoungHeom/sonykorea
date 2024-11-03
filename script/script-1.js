@@ -1,32 +1,32 @@
-$(document).ready(function(){
-    
+$(document).ready(function () {
+
     // support_top 버튼 ---------------------------------------------------------------
     // 스크롤 위치에 따라 탑버튼 표시
     $(window).scroll(function () {
 
-    if ($(this).scrollTop() > 400) {
-        $('.support_top_btn').addClass('show');
-    } else {
-    $('.support_top_btn').removeClass('show');
-    }
+        if ($(this).scrollTop() > 400) {
+            $('.support_top_btn').addClass('show');
+        } else {
+            $('.support_top_btn').removeClass('show');
+        }
     });
-    
+
     // 위로 올라가는 애니메이션
     $('.support_top_btn, .support_top_btn_white').click(function () {
         $("html, body").animate({
-        scrollTop: 0
+            scrollTop: 0
         }, 200)
     });
-    
+
     // 페이지 하단에서 100픽셀 이내에 도달했을 때 하얀 버튼 표시
     $(window).scroll(function () {
 
-    if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
-        $('.support_top_btn_white').addClass('show');
-        $('.support_top_btn').hide();
+        if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
+            $('.support_top_btn_white').addClass('show');
+            $('.support_top_btn').hide();
         } else {
-        $('.support_top_btn_white').removeClass('show');
-        $('.support_top_btn').show();
+            $('.support_top_btn_white').removeClass('show');
+            $('.support_top_btn').show();
         }
     });
 
@@ -46,7 +46,7 @@ $(document).ready(function(){
             prevEl: ".banner_prev"
         }
     });
-    
+
 
 
     // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
@@ -54,19 +54,54 @@ $(document).ready(function(){
         var swiper = new Swiper(".news_con", {
             spaceBetween: 100,
             centeredSlides: true,
-    
+            
+            // pagination: {
+                //     el: ".swiper-pagination",
+                //     clickable: true
+                // },
+                
+                navigation: {
+                    nextEl: ".nw_next",
+                    prevEl: ".nw_prev"
+                }
+            });
+        }
+        swiperSlide__init();
+        
+        // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
+    function swiperAcademy__init() {
+        var swiper = new Swiper(".academy_con", {
+            spaceBetween: 100,
+            centeredSlides: true,
+
             // pagination: {
             //     el: ".swiper-pagination",
             //     clickable: true
             // },
 
             navigation: {
-                nextEl: ".nw_next",
-                prevEl: ".nw_prev"
+                nextEl: ".ac_next",
+                prevEl: ".ac_prev"
             }
         });
     }
-    swiperSlide__init();
+    swiperAcademy__init();
+
+    // hot_swiper 스와이퍼 슬라이드 -------------------------------------------------------
+    function swiperSlideHot__init() {
+        var swiper = new Swiper(".hot_swiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+
+            // navigation: {
+            //     nextEl: ".nw_next",
+            //     prevEl: ".nw_prev"
+            // }
+        });
+    }
+    swiperSlideHot__init();
 });
 
 
