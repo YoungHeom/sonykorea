@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     // banner 이미지 스와이퍼 슬라이드 --------------------------------------------------------
     var swiper = new Swiper(".main_banner", {
-        spaceBetween: 30,
+        // spaceBetween: 30,
         centeredSlides: true,
         loop: true,
         autoplay: {
