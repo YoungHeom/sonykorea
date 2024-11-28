@@ -19,16 +19,16 @@ $(document).ready(function () {
     });
 
     // 페이지 하단에서 100픽셀 이내에 도달했을 때 하얀 버튼 표시
-    // $(window).scroll(function () {
+    $(window).scroll(function () {
 
-    //     if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
-    //         $('.support_top_btn_white').addClass('show');
-    //         $('.support_top_btn').hide();
-    //     } else {
-    //         $('.support_top_btn_white').removeClass('show');
-    //         $('.support_top_btn').show();
-    //     }
-    // });
+        if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
+            $('.support_top_btn_white').addClass('show');
+            $('.support_top_btn').hide();
+        } else {
+            $('.support_top_btn_white').removeClass('show');
+            $('.support_top_btn').show();
+        }
+    });
 
 
 
@@ -46,29 +46,8 @@ $(document).ready(function () {
             prevEl: ".banner_prev"
         }
     });
-
-
-
-    // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
-    function swiperSlide__init() {
-        var swiper = new Swiper(".news_con", {
-            spaceBetween: 100,
-            centeredSlides: true,
-            
-            // pagination: {
-                //     el: ".swiper-pagination",
-                //     clickable: true
-                // },
-                
-                navigation: {
-                    nextEl: ".nw_next",
-                    prevEl: ".nw_prev"
-                }
-            });
-        }
-        swiperSlide__init();
         
-        // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
+    // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
     function swiperAcademy__init() {
         var swiper = new Swiper(".academy_con", {
             spaceBetween: 100,

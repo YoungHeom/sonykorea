@@ -1570,11 +1570,6 @@ footer {
     left: 88%;
     }
     
-    .support_top_btn_white.show,
-    .support_top_btn.show {
-    left: 88%;
-    }
-    
     .support_top_btn_white>.btn_icon_box,
     .support_top_btn>.btn_icon_box {
     width: 14px;
