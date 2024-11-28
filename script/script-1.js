@@ -19,16 +19,16 @@ $(document).ready(function () {
     });
 
     // 페이지 하단에서 100픽셀 이내에 도달했을 때 하얀 버튼 표시
-    $(window).scroll(function () {
+    // $(window).scroll(function () {
 
-        if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
-            $('.support_top_btn_white').addClass('show');
-            $('.support_top_btn').hide();
-        } else {
-            $('.support_top_btn_white').removeClass('show');
-            $('.support_top_btn').show();
-        }
-    });
+    //     if ($(this).scrollTop() + $(window).height() >= $(document).height() - 100) {
+    //         $('.support_top_btn_white').addClass('show');
+    //         $('.support_top_btn').hide();
+    //     } else {
+    //         $('.support_top_btn_white').removeClass('show');
+    //         $('.support_top_btn').show();
+    //     }
+    // });
 
 
 

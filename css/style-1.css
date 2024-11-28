@@ -630,13 +630,13 @@ footer {
     align-items: center;
     width: 60px;
     height: 60px;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 100px;
     position: fixed;
     bottom: -10%;
     left: 92%;
     cursor: pointer;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.3);
     z-index: 100;
     transition: bottom 1s;
 }
@@ -659,7 +659,7 @@ footer {
 
 
 /* support_top_btn_white 시작 */
-.support_top_btn_white {
+/* .support_top_btn_white {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -671,9 +671,9 @@ footer {
     bottom: -10%;
     left: 92%;
     cursor: pointer;
-    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.3);
     z-index: 200;
-}
+} */
 
 .support_top_btn_white>.btn_icon_box {
     width: 18px;
