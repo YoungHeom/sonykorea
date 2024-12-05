@@ -37,14 +37,18 @@ $(document).ready(function () {
         // spaceBetween: 30,
         centeredSlides: true,
         loop: true,
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 4000,
+        //     disableOnInteraction: false,
+        // },
         navigation: {
             nextEl: ".banner_next",
             prevEl: ".banner_prev"
-        }
+        },
+        // pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true
+        // },
     });
         
     // news 공지 스와이퍼 슬라이드 -------------------------------------------------------
@@ -70,7 +74,7 @@ $(document).ready(function () {
     function swiperSlideHot__init() {
         var swiper = new Swiper(".hot_swiper", {
             pagination: {
-                el: ".swiper-pagination",
+                el: ".hot_pagination",
                 clickable: true
             },
 

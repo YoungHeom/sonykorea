@@ -30,6 +30,9 @@ a {
 .mobile_wrap {
     display: none;
 }
+:root {
+    --swiper-navigation-size: 40px !important;
+}
 
 
 /* header 시작 */
@@ -37,6 +40,7 @@ header {
     width: 100%;
     background-color: #000;
     position: fixed;
+    top: 0;
     z-index: 1000;
 }
 
@@ -88,6 +92,7 @@ header {
     height: 780px;
     position: relative;
     overflow: hidden;
+    margin-top: 62px;
 }
 
 .main_img_slide {
@@ -112,7 +117,7 @@ header {
     height: 780px;
     display: block;
     object-fit: cover;
-    object-position: right 20px;
+    object-position: right;
     cursor: pointer;
 }
 
@@ -131,7 +136,9 @@ header {
     position: absolute;
     /* left: 260px; */
     left: 15%;
-    top: 320px;
+    /* top: 320px; */
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1;
     cursor: pointer;
 }
@@ -165,7 +172,7 @@ header {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 200;
     text-align: center;
     cursor: pointer;
@@ -174,8 +181,9 @@ header {
 .banner_prev,
 .banner_next {
     position: absolute;
-    top: 394px;
-    text-shadow: 0 0 8px #5c5c5c;
+    top: 50% !important;
+    transform: translateY(-50%);
+    text-shadow: 0 0 4px rgba(92, 92, 92, .3);
     color: white;
     border: none;
     padding: 10px;
@@ -189,6 +197,19 @@ header {
 .banner_next::after {
     color: #fff;
 }
+.main_banner .swiper-pagination-bullet {
+    background-color: #fff;
+    margin-right: 6px !important;
+    margin-left: 6px !important;
+    
+}
+.main_banner .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+.main_banner .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 16px) !important;
+}
+
 
 .banner_prev {
     margin-left: 80px;
@@ -276,7 +297,7 @@ header {
 
 .overlay span:nth-child(2) {
     /* padding-bottom: 26px; */
-    bottom: 64px;
+    bottom: 66px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -333,7 +354,7 @@ header {
 }
 .hot_con {
     /* width: 1438px; */
-    height: 950px;
+    height: 920px;
     margin: 0 auto;
     position: relative;
 }
@@ -342,7 +363,7 @@ header {
     font-size: 32px;
     font-weight: bold;
     position: absolute;
-    top: 148px;
+    top: 128px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
@@ -350,14 +371,14 @@ header {
 .swiper.hot_swiper {
     height: 674px;
     width: 1438px;
-    padding-top: 138px;
+    padding-top: 118px;
     margin-left: auto;
     margin-right: auto;
 }
 .hot_pagination > .swiper-pagination-bullet {
     background-color: #fff;
-    margin-right: 7px !important;
-    margin-left: 7px !important;
+    margin-right: 6px !important;
+    margin-left: 6px !important;
 }
 .hot_wrapper > .swiper-slide  {
     display: flex;
@@ -689,8 +710,9 @@ footer {
     bottom: 80px;
     left: 92%;
 }
-
 /* support_top_btn_white 끝 */
+
+
 @media (max-width: 1440px) {
     .main_banner {
         height: 680px;
@@ -703,8 +725,6 @@ footer {
 
     .banner_text {
         left: 11%;
-        /* top: 240px; */
-        top: 40%;
     }
 
     .main_banner .swiper-button-prev::after {
@@ -779,10 +799,17 @@ footer {
         width: 85%;
     }
 }
-
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .img_slide_list img {
+        object-position: -464px -20px;
+    }
+}
 @media (max-width: 835px) and (min-width: 682px) {
     .m_news_swiper_slide:not(:first-child) {
         margin-left: -20px;
+    }
+    .img_slide_list img {
+        object-position: right;
     }
 }
 
@@ -820,11 +847,11 @@ footer {
         cursor: pointer;
     }
 
-    .support_top_btn,
+    /* .support_top_btn,
     .support_top_btn_white,
     .support_top_btn_white.show {
-        /* left: 88%; */
-    }
+        left: 88%;
+    } */
 
     .overlay span:nth-child(1) {
         font-size: 16px;
@@ -971,8 +998,8 @@ footer {
         height: initial;
         padding-left: 46px;
         position: absolute;
+        top: 51%;
         left: 0;
-        top: 44%;
         z-index: 1;
         /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); */
     }
@@ -988,6 +1015,7 @@ footer {
 
     .banner_text span:nth-child(3) {
         font-size: 22px;
+        margin-bottom: 0;
     }
 
     .banner_text button {
